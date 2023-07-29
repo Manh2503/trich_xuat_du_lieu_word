@@ -1,0 +1,17 @@
+
+Giải thuật nhánh cận:
+Ý tưởng thực hiện:
+Tìm cách biểu diễn nghiệm của bài toán dưới dạng một vector (x1​,x2​,…,xn​), mỗi thành phần xi​ được chọn ra từ tập các ứng cử viên Si​.
+mỗi nghiệm X=(x1​,x2​,…,xn​) của bài toán sẽ được đánh giá độ tốt bằng một hàm f(X). Vì đây là bài toán tối ưu, nên mục tiêu của chúng ta là đi tìm nghiệm có hàm f(X) tốt nhất, thường là lớn nhất hoặc nhỏ nhất.
+xây dựng nghiệm của bài toán. Giả sử, các bạn đã xây dựng được i thành phần của nghiệm là (x1​,x2​,…,xi​) và chuẩn bị mở rộng nghiệm thành (x1​,x2​,…,xi​,xi+1​). Nếu như bằng một cách nào đó, các bạn đánh giá được độ tốt của toàn bộ các nghiệm mở rộng của nhánh này là (​,x2​,…,xi​,xi+1​,…) và biết rằng không có nghiệm nào trong nhánh này "tốt hơn" nghiệm tốt nhất tại thời điểm đó, thì việc mở rộng tiếp từ (​,x2​,…,xi​) sẽ là không cần thiết nữa, mà thay vào đó ta sẽ chuyển qua chọn ứng cử viên tiếp theo cho thành phần xi​ luôn.
+Ứng dụng thuật toán
+Tìm cách trả số tiền T với n tờ tiền có mệnh giá cho trước, sao cho số tờ tiền cần sử dụng là nhỏ nhất?
+Trong các nhà máy sản xuất vỏ lon đồ uống, các nhà thiết kế luôn luôn tìm cách thiết kế sao cho diện tích toàn phần của vỏ lon là nhỏ nhất nhằm giảm thiểu chi phí nguyên liệu. Bài toán đặt ra là với thể tích cần thiết là V, làm sao để tạo ra vỏ lon hình trụ có diện tích toàn phần nhỏ nhất? .....
+
+Ví dụ vè bài toán tiếp cận và phân tích tính phù hợp của mô hình thuật toán cho bài toán.
+Một máy ATM hiện có n tờ tiền có giá trị lần lượt là t1​,t2​,…,tn​. Hãy tìm ra cách trả số tiền S sao cho số tờ tiền phải sử dụng là ít nhất?
+
+
+
+Biểu diễn và đánh giá giải thuật
+1 bài codeptit
